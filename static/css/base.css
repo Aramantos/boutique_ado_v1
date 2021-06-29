@@ -191,7 +191,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content input {
-    border-color: black;
+    border-color: #000;
     border-radius: 0;
 }
 
@@ -205,13 +205,12 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-    /* btn */
-    display: inline-block;
+	/* btn */
+	display: inline-block;
     font-weight: 400;
     color: #fff;
     text-align: center;
     vertical-align: middle;
-    cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -228,14 +227,14 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {
-    color: #fff;
+.allauth-form-inner-content input[type='submit']:hover {	
+	color: #fff;
     background-color: #222;
     border-color: #222;
 }
 
 .allauth-form-inner-content a {
-    color: #17a2b8; /* text-info */
+	color: #17a2b8; /* text-info */
 }
 
 /* fixed top navbar only on medium and up */
